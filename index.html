@@ -27,14 +27,12 @@ body{font-family:Poppins,sans-serif;background:#020617;color:#e5e7eb}
 }
 .banner img{
   width:100%;
-  max-height:250px;
+  max-height:300px;
   object-fit:cover;
   border-radius:12px;
   transition: transform .5s;
 }
 .banner img:hover{transform: scale(1.02);}
-@media(max-width:768px){.banner img{max-height:180px;}}
-@media(max-width:480px){.banner img{max-height:140px;}}
 
 /* HERO */
 .hero{text-align:center;padding:60px 20px 40px;animation:down .8s}
@@ -104,7 +102,6 @@ body{font-family:Poppins,sans-serif;background:#020617;color:#e5e7eb}
   box-shadow:0 6px 25px rgba(56,189,248,.6);
   transform: translateY(-2px);
 }
-.btn-detail{background:#020617;border:1px solid #1e293b;color:#cbd5f5}
 
 /* FOOTER */
 footer{border-top:1px solid #1e293b;text-align:center;padding:30px;color:#64748b;font-size:14px}
@@ -127,12 +124,12 @@ footer{border-top:1px solid #1e293b;text-align:center;padding:30px;color:#64748b
 
 <!-- BANNER -->
 <div class="banner">
-  <img src="https://i.ibb.co/yourimage/banner.jpg" alt="Banner Promo">
+  <img src="/images/banner.jpg" alt="Banner">
 </div>
 
 <div class="hero" id="home">
   <h1>Mengapa Pilih Abid Web?</h1>
-  <p>Kami menyediakan template modern, responsive, dan siap pakai. Cocok untuk jualan, portofolio, UMKM, dan kebutuhan web lainnya.</p>
+  <p>Kami menyediakan template modern, responsive, dan siap pakai untuk jualan, portofolio, dan UMKM.</p>
 </div>
 
 <!-- FILTER -->
@@ -146,81 +143,61 @@ footer{border-top:1px solid #1e293b;text-align:center;padding:30px;color:#64748b
 <!-- CARDS -->
 <div class="cards" id="template">
 
-  <!-- JUALAN -->
   <div class="card jualan">
     <div class="badge">Best Seller</div>
     <div class="preview">
-      <img src="https://i.ibb.co/yourimage/pepek.jpg" alt="Preview Jualan">
+      <img src="/images/jualan1.jpg" alt="Preview Jualan">
     </div>
     <div class="content">
       <h3>Template Web Jualan</h3>
       <div class="price">Rp10.000</div>
       <ul>
-        <li>Landing page profesional</li>
-        <li>Tombol WhatsApp langsung</li>
-        <li>Animasi smooth</li>
+        <li>Landing page modern</li>
+        <li>Animasi halus</li>
         <li>SEO ready</li>
+        <li>Responsive di semua device</li>
       </ul>
       <div class="actions">
-        <button class="btn-wa" onclick="orderWA('Template Web Jualan')">ORDER</button>
+        <button class="btn-wa" onclick="orderWA('Template Web Jualan')">ORDER via WA</button>
       </div>
     </div>
   </div>
 
-  <!-- PORTOFOLIO -->
   <div class="card portofolio">
     <div class="badge">Populer</div>
     <div class="preview">
-      <img src="https://i.ibb.co/yourimage/portofolio.jpg" alt="Preview Portofolio">
+      <img src="/images/portofolio1.jpg" alt="Preview Portofolio">
     </div>
     <div class="content">
       <h3>Template Web Portofolio</h3>
       <div class="price">Rp5.000</div>
       <ul>
-        <li>Foto profil & project</li>
-        <li>Skill showcase</li>
-        <li>Branding profesional</li>
-        <li>Responsif & mudah diedit</li>
+        <li>Project showcase</li>
+        <li>Profil profesional</li>
+        <li>Branding personal</li>
+        <li>Responsive layout</li>
       </ul>
       <div class="actions">
-        <button class="btn-wa" onclick="orderWA('Template Web Portofolio')">ORDER</button>
+        <button class="btn-wa" onclick="orderWA('Template Web Portofolio')">ORDER via WA</button>
       </div>
     </div>
   </div>
 
-  <!-- UMKM -->
   <div class="card umkm">
     <div class="preview">
-      <img src="https://i.ibb.co/yourimage/umkm.jpg" alt="Preview UMKM">
+      <img src="/images/umkm1.jpg" alt="Preview UMKM">
     </div>
     <div class="content">
       <h3>Template Website UMKM</h3>
       <div class="price">Rp30.000</div>
       <ul>
-        <li>Profil usaha lengkap</li>
+        <li>Profil usaha</li>
         <li>Daftar produk</li>
-        <li>Kontak langsung</li>
-        <li>Desain profesional</li>
+        <li>Kontak & lokasi</li>
+        <li>Design profesional</li>
       </ul>
       <div class="actions">
-        <button class="btn-wa" onclick="orderWA('Template Website UMKM')">ORDER</button>
-      </div>
-    </div>
-  </div>
-
-  <!-- CUSTOM WEB -->
-  <div class="card custom">
-    <div class="content">
-      <h3>Custom Web</h3>
-      <div class="price">Rp??</div>
-      <ul>
-        <li>Bisa request desain sendiri</li>
-        <li>Responsive</li>
-        <li>Animasi halus</li>
-        <li>Fitur sesuai kebutuhan</li>
-      </ul>
-      <div class="actions">
-        <button class="btn-wa" onclick="orderWA('Custom Web')">ORDER</button>
+        <button class="btn-wa" onclick="orderWA('Template Website UMKM')">ORDER via WA</button>
       </div>
     </div>
   </div>
